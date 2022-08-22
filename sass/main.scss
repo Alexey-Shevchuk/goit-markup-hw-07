@@ -1,7 +1,28 @@
-a{
-    text-decoration: none;
-}
 
-
+@import './utils/variables';
+@import './utils/hidden';
+@import './utils/mixins';
+@import './utils/placeholders';
+@import './base/common';
+@import './base/reset';
+@import './components/container';
+@import './components/section';
+@import './components/backdrop';
+@import './components/logo';
+@import './components/modal-form';
+@import './components/modal';
+@import './components/section-title';
+@import './components/socials';
 @import './layouts/header';
 @import './layouts/footer';
+@import './layouts/clients';
+@import './layouts/features';
+@import './layouts/filters';
+@import './layouts/hero';
+@import './layouts/projects';
+@import './layouts/team';
+@import './layouts/works';
+
+
+
+
