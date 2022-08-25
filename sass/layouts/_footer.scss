@@ -49,17 +49,17 @@ footer {
     margin-bottom: 20px;
 }
 
-.subscriprion__form {
+.subscriprion-form {
     display: flex;
     align-items: center;
     margin-top: 20px;
 }
 
-.subscriprion__email {
+.subscriprion-form__email {
     margin-right: 12px;
 }
 
-.subscriprion__input {
+.subscriprion-form__input {
     height: 50px;
     width: 358px;
 
@@ -73,24 +73,24 @@ footer {
     border-radius: 4px;
 }
 
-.subscription__data {
+.subscription-button__data {
     right: 28px;
     @include centeredFlex();
 }
 
-.subscription__icon {
+.subscription-button__icon {
     margin-left: 10px;
     fill: var(--primary-bg-color);
 
     transition: fill var(--primary-animation);
 
-    .subscription__button:hover &,
-    .subscription__button:focus & {
+    .subscription-button:hover &,
+    .subscription-button:focus & {
         fill: var(--accent-color);
     }
 }
 
-.subscription__button {
+.subscription-button {
     @extend %button;
 
     &:hover,

@@ -84,7 +84,7 @@ body {
   clip: rect(0 0 0 0);
 }
 
-.subscription__button, .hero__button, .modal__button {
+.subscription-button, .hero__button, .modal__button {
   width: 200px;
   height: 50px;
   font-family: inherit;
@@ -781,17 +781,17 @@ footer {
   margin-bottom: 20px;
 }
 
-.subscriprion__form {
+.subscriprion-form {
   display: flex;
   align-items: center;
   margin-top: 20px;
 }
 
-.subscriprion__email {
+.subscriprion-form__email {
   margin-right: 12px;
 }
 
-.subscriprion__input {
+.subscriprion-form__input {
   height: 50px;
   width: 358px;
   font-size: 16px;
@@ -805,23 +805,23 @@ footer {
   border-radius: 4px;
 }
 
-.subscription__data {
+.subscription-button__data {
   right: 28px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.subscription__icon {
+.subscription-button__icon {
   margin-left: 10px;
   fill: var(--primary-bg-color);
   transition: fill var(--primary-animation);
 }
-.subscription__button:hover .subscription__icon, .subscription__button:focus .subscription__icon {
+.subscription-button:hover .subscription-button__icon, .subscription-button:focus .subscription-button__icon {
   fill: var(--accent-color);
 }
 
-.subscription__button:hover, .subscription__button:focus {
+.subscription-button:hover, .subscription-button:focus {
   color: var(--accent-color);
   background-color: var(--primary-bg-color);
 }/*# sourceMappingURL=main.css.map */
