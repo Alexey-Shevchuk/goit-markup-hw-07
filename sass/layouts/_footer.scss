@@ -10,7 +10,7 @@ footer {
     align-items: baseline;
 }
 
-.footer__block {
+.footer-block {
     &:nth-child(1) {
         flex-grow: 1;
     }
@@ -44,7 +44,7 @@ footer {
     color: var(--footer-contacts-color);
 }
 
-.footer__subtitle {
+.footer-block__subtitle {
     @include subtitle($color: var(--primary-bg-color));
     margin-bottom: 20px;
 }

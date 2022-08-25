@@ -739,10 +739,10 @@ footer {
   align-items: baseline;
 }
 
-.footer__block:nth-child(1) {
+.footer-block:nth-child(1) {
   flex-grow: 1;
 }
-.footer__block:nth-child(2) {
+.footer-block:nth-child(2) {
   margin-right: 93px;
   margin-left: 70px;
 }
@@ -771,7 +771,7 @@ footer {
   color: var(--footer-contacts-color);
 }
 
-.footer__subtitle {
+.footer-block__subtitle {
   font-size: 14px;
   font-weight: 700;
   line-height: 1.1428571429;
