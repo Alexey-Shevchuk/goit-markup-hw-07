@@ -435,7 +435,7 @@ header {
   color: var(--accent-color);
 }
 
-.logo__studio_header {
+.logo__studio-header {
   color: var(--logo-studio-header-color);
 }
 
@@ -449,7 +449,7 @@ header {
   padding-bottom: 200px;
   max-width: 1600px;
   min-height: 600px;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/bg-hero-image.jpg");
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/images/bg-hero-image.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
